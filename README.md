@@ -1,4 +1,73 @@
-mkdimkdir -p ai-governance-toolkit && cd ai-governance-toolkit && cat > README.md << 'EOF'
+mkdir -p ai-governance-assessment-toolkit && cd ai-governance-assessment-toolkit
+
+mkdir -p output screenshots
+
+cat > README.md <<'EOF'
+# AI Governance Assessment Toolkit
+
+## Project Overview
+
+This project is a Python-based AI governance, risk, and compliance automation toolkit that helps assess AI systems against governance and risk management expectations.
+
+It demonstrates how I can automate AI system inventory creation, evaluate AI risks, map findings to frameworks, generate POA&M-style remediation tracking, produce executive summaries, and create Excel dashboards with charts for leadership review.
+
+Through this project, I demonstrate my ability to bridge AI governance requirements with technical validation by using automation to assess AI risk, privacy exposure, human oversight, red-team testing results, business impact, and audit readiness.
+
+## Why I Built This Project
+
+AI governance assessments are often performed manually using spreadsheets, Word documents, and interview notes. That process can be slow, inconsistent, and difficult to explain to leadership.
+
+This toolkit automates key parts of the process by generating:
+
+- AI system inventory
+- Risk assessment workbook
+- POA&M tracker
+- Executive summary
+- Red-team testing results
+- ROI dashboard
+- Graphs and visual evidence
+
+## Frameworks Referenced
+
+- NIST AI Risk Management Framework
+- ISO/IEC 42001 AI Management System concepts
+- FedRAMP-style POA&M tracking
+- AI red-team testing principles
+- Governance, Risk, and Compliance reporting
+
+## Files Generated
+
+After running the project, the `/output` folder will contain:
+
+| File | Purpose |
+|---|---|
+| AI_System_Inventory.xlsx | Inventory of AI systems with dashboard and risk chart |
+| AI_Risk_Assessment.xlsx | Risk findings mapped to framework categories |
+| AI_POAM_Tracker.xlsx | Remediation tracker for identified AI risks |
+| AI_RedTeam_Results.xlsx | Red-team test results with cost avoidance chart |
+| Executive_Summary.docx | Leadership-ready project summary |
+| risk_distribution.png | AI risk chart |
+| roi_cost_savings.png | ROI savings chart |
+| redteam_results.png | Red-team pass/fail chart |
+
+## Skills Demonstrated
+
+- AI Governance
+- GRC Automation
+- Risk Assessment
+- NIST AI RMF Mapping
+- POA&M Development
+- Python Automation
+- Excel Dashboard Creation
+- Data Visualization
+- Executive Reporting
+- Red-Team Evidence Documentation
+
+## How to Run
+
+```bash
+pip install -r requirements.txt
+python main.pymkdimkdir -p ai-governance-toolkit && cd ai-governance-toolkit && cat > README.md << 'EOF'
 # AI Governance Assessment Toolkit
 **Built by Michael | GRC Engineer | FedRAMP + NIST AI RMF + ROI Focused**
 
